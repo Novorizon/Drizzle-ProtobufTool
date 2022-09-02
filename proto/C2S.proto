@@ -11,7 +11,7 @@ message C2S_Ping
 
 
 
-message C2S_Login 
+message C2S_Login_Req
 {
     int64       playerId = 2;
     int64      SessionId  = 4;
@@ -19,6 +19,6 @@ message C2S_Login
 
 
 //请求玩家信息
-message C2S_Player_Info_Request
+message C2S_PlayerInfo_Req
 {	
 }
