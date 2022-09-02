@@ -1,0 +1,24 @@
+syntax = "proto3";
+package protobuffer;
+option csharp_namespace = "Game.Protobuffer";
+option optimize_for = SPEED;
+
+
+// C2S_
+message C2S_Ping
+{
+} 
+
+
+
+message C2S_Login 
+{
+    int64       playerId = 2;
+    int64      SessionId  = 4;
+}
+
+
+//请求玩家信息
+message C2S_Player_Info_Request
+{	
+}
