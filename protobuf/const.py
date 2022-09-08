@@ -1,8 +1,7 @@
 
 
 proto_path = "Proto/src"
-csfile_path = "../../Unity/Assets/Scripts/Net/ProtoDic.cs"
-gofile_path = "../../Server/src/server/msg/msg.go"
+csfile_path = "../../Drizzle/Assets/Scripts/Drizzle-NetworkLib/Network/ProtoUtils.cs"
 
 #########################################################
 ### table
